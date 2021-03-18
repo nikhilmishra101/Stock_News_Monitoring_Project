@@ -35,7 +35,7 @@ else:
     up_down = "🔻"
 
 percentage_change = round((difference_data/yesterday_stock_price)*100)
-if abs(percentage_change) > 2:
+if abs(percentage_change) > 5:
     params={
         "qInTitle":COMPANY_NAME,
         "apikey":NEWS_API_KEY,
